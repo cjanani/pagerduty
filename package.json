@@ -1,0 +1,25 @@
+{
+  "name": "pagerduty",
+  "version": "0.0.9",
+  "description": "PagerDuty take home test",
+  "main": "bulk_create_service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjanani/pagerduty.git"
+  },
+  "author": "Janani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjanani/pagerduty/issues"
+  },
+  "homepage": "https://github.com/cjanani/pagerduty#readme",
+  "dependencies": {
+    "@pagerduty/pdjs": "^2.2.4",
+    "commander": "^9.2.0",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
